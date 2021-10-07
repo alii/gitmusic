@@ -1,0 +1,21 @@
+{
+	"name": "commitify",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/alii/commitify",
+	"author": "Alistair Smith <alistairsmith01@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^0.22.0",
+		"clime": "^0.5.14",
+		"colorette": "^2.0.14",
+		"simple-git": "^2.46.0",
+		"use-lanyard": "^1.0.2"
+	},
+	"devDependencies": {
+		"typescript": "^4.4.3"
+	},
+	"scripts": {
+		"test": "yarn tsc && chmod +x ./dist/cli.js && ./dist/cli.js"
+	}
+}

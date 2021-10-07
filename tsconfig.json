@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"declaration": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"strict": true,
+		"strictPropertyInitialization": false,
+		"noImplicitReturns": true,
+		"noEmitOnError": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"sourceMap": true,
+		"skipLibCheck": true,
+		"newLine": "LF",
+		"rootDir": "src",
+		"outDir": "dist"
+	},
+	"include": ["src", "types"]
+}
