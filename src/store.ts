@@ -7,7 +7,7 @@ interface Data {
 }
 
 export class Store {
-	public static readonly location = path.join(os.homedir(), ".commitify.json");
+	public static readonly location = path.join(os.homedir(), ".gitmusic.json");
 
 	read() {
 		const exists = existsSync(Store.location);

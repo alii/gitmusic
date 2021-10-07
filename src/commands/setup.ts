@@ -1,7 +1,7 @@
 import { Command, command, metadata, param } from "clime";
 import { store } from "../store";
 
-@command({ description: "Creates a commitify config file" })
+@command({ description: "Creates a gitmusic config file" })
 export default class extends Command {
 	@metadata
 	async execute(

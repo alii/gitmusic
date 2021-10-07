@@ -1,8 +1,8 @@
 {
-	"name": "commitsong",
+	"name": "gitmusic",
 	"version": "0.0.1",
 	"main": "dist/cli.js",
-	"repository": "https://github.com/alii/gitsong",
+	"repository": "https://github.com/alii/gitmusic",
 	"author": "Alistair Smith <alistairsmith01@gmail.com>",
 	"license": "MIT",
 	"bin": "./dist/cli.js",
@@ -18,7 +18,8 @@
 	},
 	"scripts": {
 		"test": "yarn tsc && chmod +x ./dist/cli.js && ./dist/cli.js",
-		"build": "tsc"
+		"build": "tsc",
+		"prepublish": "yarn build"
 	},
 	"files": [
 		"dist/**/*",

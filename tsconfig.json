@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"target": "es6",
 		"module": "commonjs",
-		"declaration": true,
+		"declaration": false,
 		"experimentalDecorators": true,
 		"emitDecoratorMetadata": true,
 		"strict": true,
@@ -11,7 +11,7 @@
 		"noEmitOnError": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
-		"sourceMap": true,
+		"sourceMap": false,
 		"skipLibCheck": true,
 		"newLine": "LF",
 		"rootDir": "src",
