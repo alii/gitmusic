@@ -1,6 +1,9 @@
-# gitsong
+# gitmusic
 
 a really cool app that lets you get your currently playing song via lanyard and then commit that as your current commit message.
+
+## installation
+you can install with npm: `npm i -g gitmusic`
 
 features:
 -idk i made ethis at 6:52am and i am going to bed now
