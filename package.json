@@ -1,10 +1,11 @@
 {
-	"name": "commitify",
-	"version": "1.0.0",
-	"main": "index.js",
-	"repository": "https://github.com/alii/commitify",
+	"name": "commitsong",
+	"version": "0.0.1",
+	"main": "dist/cli.js",
+	"repository": "https://github.com/alii/gitsong",
 	"author": "Alistair Smith <alistairsmith01@gmail.com>",
 	"license": "MIT",
+	"bin": "./dist/cli.js",
 	"dependencies": {
 		"axios": "^0.22.0",
 		"clime": "^0.5.14",
@@ -16,6 +17,11 @@
 		"typescript": "^4.4.3"
 	},
 	"scripts": {
-		"test": "yarn tsc && chmod +x ./dist/cli.js && ./dist/cli.js"
-	}
+		"test": "yarn tsc && chmod +x ./dist/cli.js && ./dist/cli.js",
+		"build": "tsc"
+	},
+	"files": [
+		"dist/**/*",
+		"package.json"
+	]
 }
