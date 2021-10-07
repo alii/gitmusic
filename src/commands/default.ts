@@ -21,21 +21,17 @@ export default class extends Command {
 			`https://api.lanyard.rest/v1/users/${config.discordId}`
 		);
 
-		if ("error" in lanyard) {
+		if ("error" in lanyard) 
 			throw new Error(lanyard.error.message);
-		}
 
 		const spotify = lanyard.data.spotify;
 
-		if (!spotify) {
+		if (!spotify) 
 			throw new Error("You are not playing anything!");
-		}
 
 		console.log("You are listening to", blue(spotify.song));
 
-		if (dry) {
-			return;
-		}
+		if (dry) return;
 
 		await git(process.cwd()).add(".").commit(spotify.song);
 	}
