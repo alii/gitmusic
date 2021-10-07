@@ -1,6 +1,6 @@
 {
 	"name": "gitmusic",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "dist/cli.js",
 	"repository": "https://github.com/alii/gitmusic",
 	"author": "Alistair Smith <alistairsmith01@gmail.com>",
